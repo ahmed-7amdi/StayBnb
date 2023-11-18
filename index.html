@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="stylesheet" href="./css/animate.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>StayBnB - Ziad</title>
+</head>
+
+<body>
+   <!-------- Start Home Page -------->
+   <section class="homePage">
+      <div class="container">
+         <header>
+            <a href="./index.html"><img src="./images/logo.png" alt=""></a>
+            <ul id="dropUl">
+               <li><a href="./index.html" class="active">Popular Places</a></li>
+               <li><a href="./index2.html">Travel Outside</a></li>
+               <li><a href="./index3.html">Online Packages</a></li>
+            </ul>
+            <div class="register">
+               <i class="fa-solid fa-moon" id="icon"></i>
+               <i class="fa-solid fa-bars" id="bars" onclick="on()"></i>
+               <div>
+                  <a href="#">Register Now</a>
+               </div>
+            </div>
+         </header>
+         <div class="content">
+            <h1>Find Your Next Stay</h1>
+            <div class="search-bar" id="search">
+               <form>
+                  <div>
+                     <label>Location</label>
+                     <input type="text" placeholder="Where are you going?">
+                  </div>
+                  <div>
+                     <label>Check in</label>
+                     <input type="text" placeholder="Add Date">
+                  </div>
+                  <div>
+                     <label>Check out</label>
+                     <input type="text" placeholder="Add Date">
+                  </div>
+                  <div>
+                     <label>Guest</label>
+                     <input type="text" placeholder="Add Guest">
+                  </div>
+                  <button type="submit"><img src="./images/search.png"></button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-------- End Home Page -------->
+   <!-------- Start Exclusive -------->
+   <section class="exclusive">
+      <div class="container">
+         <h2 class="title fw-bold fs-2">Exclusive</h2>
+         <div class="exclusive-part">
+            <div class="images">
+               <img src="./images/image-1.png" alt="">
+               <span>
+                  <h3 class="m-0 fs-5 fw-bold">London</h3>
+                  <p class="m-0">starts @ 250$</p>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/image-2.png" alt="">
+               <span>
+                  <h3 class="m-0 fs-5 fw-bold">Switzerland</h3>
+                  <p class="m-0">starts @ 250$</p>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/image-3.png" alt="">
+               <span>
+                  <h3 class="m-0 fs-5 fw-bold">Australia</h3>
+                  <p class="m-0">starts @ 250$</p>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/image-4.png" alt="">
+               <span>
+                  <h3 class="m-0 fs-5 fw-bold">France</h3>
+                  <p class="m-0">starts @ 250$</p>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/image-5.png" alt="">
+               <span>
+                  <h3 class="m-0 fs-5 fw-bold">Amsterdam</h3>
+                  <p class="m-0">starts @ 250$</p>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/image-6.png" alt="">
+               <span>
+                  <h3 class="m-0 fs-5 fw-bold">Netherland</h3>
+                  <p class="m-0">starts @ 250$</p>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/image-7.png" alt="">
+               <span>
+                  <h3 class="m-0 fs-5 fw-bold">New York</h3>
+                  <p class="m-0">starts @ 250$</p>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/image-8.png" alt="">
+               <span>
+                  <h3 class="m-0 fs-5 fw-bold">Chicago</h3>
+                  <p class="m-0">starts @ 250$</p>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/image-9.png" alt="">
+               <span>
+                  <h3 class="m-0 fs-5 fw-bold">San Francisco</h3>
+                  <p class="m-0">starts @ 250$</p>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/image-10.png" alt="">
+               <span>
+                  <h3 class="m-0 fs-5 fw-bold">Shanghai</h3>
+                  <p class="m-0">starts @ 250$</p>
+               </span>
+            </div>
+         </div>
+         <h2 class="title fw-bold fs-2">Trending Places</h2>
+         <div class="trending">
+            <div class="images">
+               <img src="./images/dubai.png">
+               <span>
+                  <h3 class="fw-bold fs-4 m-0">Dubai</h3>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/new-delhi.png">
+               <span>
+                  <h3 class="fw-bold fs-4 m-0">New Delhi</h3>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/new-york.png">
+               <span>
+                  <h3 class="fw-bold fs-4 m-0">New York</h3>
+               </span>
+            </div>
+            <div class="images">
+               <img src="./images/paris.png">
+               <span>
+                  <h3 class="fw-bold fs-4 m-0">Paris</h3>
+               </span>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-------- End Exclusive -------->
+   <!-------- Start CTA -------->
+   <section class="cta">
+      <div class="container">
+         <div>
+            <h3>Sharing<br>Is Earning Now</h3>
+            <p>Great opportunity to make money by<br>sharing your extra space.</p>
+            <a href="#">Know More</a>
+         </div>
+      </div>
+
+   </section>
+   <!-------- End CTA -------->
+   <!-------- Start Traveler -------->
+   <section class="traveler">
+      <div class="container">
+         <h2 class="title fw-bold fs-2">Traveler Stories</h2>
+         <div class="images">
+            <div class="image-box">
+               <img src="./images/story-1.png">
+               <p>Popular European countries with a budget of just $10,000</p>
+            </div>
+            <div class="image-box">
+               <img src="./images/story-2.png">
+               <p>Traveled more than 100 countries in less than a year</p>
+            </div>
+            <div class="image-box">
+               <img src="./images/story-3.png">
+               <p>Best experience you get while traveling to Thailand</p>
+            </div>
+         </div>
+         <a href="#" class="start-btn">Start Making money</a>
+      </div>
+   </section>
+   <!-------- End Traveler -------->
+
+   <!-------- Start About -------->
+   <section class="about">
+      <div class="container">
+         <h2 class="title fw-bold fs-2">About StayBnB</h2>
+         <p class="content-about">
+            STAY BnB is the subsidiary of HA.DE.CO Ltd a construction company that has been around for over three
+            decades, it has completed over 100 projects and it is one of the few to have survived the Credit Crunch of
+            2013. The seed was planted in early 2017 when the shareholders of HA. DE. CO.
+         </p>
+      </div>
+   </section>
+   <!-------- End About -------->
+   <!-------- Start Contact Us -------->
+   <section class="contact">
+      <div class="container">
+         <h1 class="fw-bold fs-2">Contact Us</h1>
+         <label>* Name</label>
+         <input type="text" id="userName" name="name" placeholder="Your name">
+         <span id="errors1"></span><br>
+         <label>* Email</label>
+         <input type="text" placeholder="Email address" id="email" name="email">
+         <span id="errors2"></span><br>
+         <label>* Phone</label>
+         <input type="tel" placeholder="Phone number" id="phone" name="phone">
+         <span id="errors3"></span><br>
+         <label>* Message</label>
+         <textarea placeholder="Your message" cols="132" rows="5" name="subject" id="message"></textarea>
+         <span id="errors4"></span><br>
+         <button onclick="sendMail()">Send</button>
+      </div>
+   </section>
+   <!-------- End Contact Us -------->
+   <!-------- Start Footer -------->
+   <footer>
+      <div class="container">
+         <div class="icon">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+         </div>
+         <p class="user m-0 fw-bold">Powered by <span
+               class="fw-bold d-inline-block animate__animated animate__fadeIn animate__infinite animate__slow">Ahmed Hamdy</span></p>
+      </div>
+   </footer>
+   <!-------- End Footer -------->
+   <!-------- Start Scripts -------->
+   <script src="./js/main.js"></script>
+   <script src="./js/wow.min.js"></script>
+   <script>
+      new WOW().init();
+   </script>
+
+   <script type="text/javascript" src="node_modules\@emailjs\browser\dist\email.min.js">
+   </script>
+   <script type="text/javascript">
+      (function () {
+         emailjs.init("02MQ2K5YYI83iL8BX");
+      })();
+   </script>
+   <!-------- End Scripts -------->
+</body>
+
+</html>
